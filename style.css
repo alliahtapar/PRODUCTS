@@ -1,0 +1,100 @@
+.heads{
+    background-image:url(../IMAGE/bg.jpg);
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+ul{
+    height: 80px;
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+    min-height: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:20px ;
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: pink;
+}
+li a:active{
+    background-color: white;
+}
+li a.active{
+    background-color: rgb(36, 27, 27);
+    color: aliceblue;
+    border-radius: 3px;
+}
+.det{
+    min-height: 900px;
+    background-color: pink;
+    padding: 20px;
+
+}
+.fot{
+    min-height: 3px;
+    background-color: rgb(238, 159, 95);
+
+}
+div .prods{
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    min-height: 250px;
+    border-color: antiquewhite;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin: 10px 20px;
+    display: inline-block;
+
+}
+div .prods img{
+    width: 250px;
+    height: 200px;
+}
+div .prods:hover{
+    border-color: black;
+}
+div p{
+    text-align: center;
+    width: 80%;
+    min-height: 800px;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    display: block;
+    padding:20px;
+    font-size: large;
+}
+
+.a{
+    padding: 2px 0px;
+    text-align: center;
+    width: 280px;
+    margin: 0px;
+
+}
+.b{
+    padding: 10px;
+    position: relative;
+    left: 50px;
+
+}
